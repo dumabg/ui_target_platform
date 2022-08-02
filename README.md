@@ -12,7 +12,9 @@ It also contains the global variable `debugDefaultUITargetPlatformIsWeb` for tes
 
 ## Usage
 
-Get `TargetPlatform` from `Theme` and pass it to `UITargetPlatform.fromTargetPlatform()`. Use `UITargetPlatform` like `TargetPlatform`.
+Get `TargetPlatform` from `Theme` and pass it to `UITargetPlatform.fromTargetPlatform()`.
+
+Use `UITargetPlatform` like `TargetPlatform`.
 
 ```dart
  @override
