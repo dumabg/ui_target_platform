@@ -14,8 +14,7 @@ class _MultiPlatformScreenState extends State<MultiPlatformScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final platform =
-        UITargetPlatform.fromTargetPlatform(Theme.of(context).platform);
+    final platform = UITargetPlatform.of(context);
     return Scaffold(
         body: Column(
       children: [

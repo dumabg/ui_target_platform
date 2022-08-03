@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 
 /// Override the [UITargetPlatform.fromTargetPlatform()] return to web.
 ///
@@ -42,4 +43,8 @@ enum UITargetPlatform {
         ? UITargetPlatform.web
         : UITargetPlatform.values[targetPlatform.index];
   }
+
+  // Return the same value than UITargetPlatform.fromTargetPlatform(Theme.of(context).platform)
+  factory UITargetPlatform.of(BuildContext context) =>
+    UITargetPlatform.fromTargetPlatform(Theme.of(context).platform);
 }

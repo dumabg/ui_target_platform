@@ -1,6 +1,6 @@
 name: ui_target_platform
 description: This package contains the enum UITargetPlatform, that has the same values than TargetPlatform with a new value web.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/dumabg/ui_target_platform 
 homepage: https://github.com/dumabg/ui_target_platform
 
