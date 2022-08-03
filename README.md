@@ -31,3 +31,11 @@ Use `UITargetPlatform` like `TargetPlatform`.
     }
 }
 ```
+
+You also can use `UITargetPlatform.of`, 
+
+```dart
+  final platform = UITargetPlatform.of(context);
+```
+
+that is the same than `UITargetPlatform.fromTargetPlatform(Theme.of(context).platform)`.
